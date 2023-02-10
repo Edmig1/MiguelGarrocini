@@ -171,7 +171,120 @@ main #formulario #formulario-form{
 
 /* ---------------------------------------------Aqui começa o Login-------------------------------------------------------------- */
 
+#logindog h3{
+    text-align: center;
+    padding: 60px;
+    font-size: 2em;
+}
+#header nav a{
+    padding-right: 10px;
+}
+main #logindog #logindog-divform form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main #logindog #logindog-divform form input, main #form #formulario-form1 input{
+    display: block;
+    padding: 8px;
+    border: none;
+    /* outiline tira a bordinha do input */
+    outline: none;
+    /* border bottom serve pra por borda só em baixo */
+    border-bottom:1px solid black;
+    border-radius: 5px;
+    width: 500px;
+    margin-bottom: 10px;
+
+}
+
+main #logindog #logindog-divform form button:hover, #logindog a:hover{
+    font-size: large;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+main #logindog #logindog-divform form button:hover{
+    padding-left: 240px;
+}
+
+#formbuttonlogar{
+    padding: 8px;
+    border: none;
+    background-color: var(--cor-principal);
+    color: white;
+    border-radius: 10px;
+    width: 500px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 240px;
+}
+
+#logindog a{
+    padding: 8px;
+    border: none;
+    background-color: var(--cor-principal);
+    color: white;
+    border-radius: 10px;
+    width: 500px;
+    cursor: pointer;
+    text-align: center;
+}
 
 
 
 /* ------------------------------------------Aqui começa o Registro-------------------------------------------------------------- */
+
+main #form{
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+main #form #textofoda h1{
+    text-align: center;
+    width: 168px;
+    height: 35px;
+    left: 556px;
+    top: 77px;
+    margin-bottom: 20px;
+}
+main #form #formulario-form1 input{
+    margin-bottom: 19px;
+}
+main #form form label{
+    display: block;
+}
+#formbotao{
+    padding: 8px;
+    border: none;
+    background-color: var(--cor-principal);
+    color: white;
+    border-radius: 10px;
+    width: 500px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 215px;
+}
+ main #form form a{
+    text-decoration:none;
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
