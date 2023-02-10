@@ -74,6 +74,7 @@ main #Banner .Banner-button {
     border: none;
     border-radius: 30px;
     cursor: pointer;
+    text-decoration: none;
 
 
 }
@@ -92,7 +93,10 @@ main #beneficios #beneficios-nossos-beneficios,
 main #Banner .Banner-button,
 #Bem-vindo div,
 #header nav a:hover,
-main #beneficios #beneficios-servicos, main #formulario #formulario-form form, main #form #form-formulario-login form, main #consulta {
+main #beneficios #beneficios-servicos,
+main #formulario #formulario-form form,
+main #form #form-formulario-login form,
+main #consulta {
     padding: 15px;
 }
 
@@ -126,28 +130,30 @@ main #beneficios #beneficios-servicos {
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
 }
+
 /* entrou na section, na div e depois no próprio formulário */
-main #formulario #formulario-form form{
+main #formulario #formulario-form form {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 /* display block serve pra deixar tudo alinhado um em cima do outro */
-main #formulario #formulario-form input{
+main #formulario #formulario-form input {
     display: block;
     padding: 8px;
     border: none;
     /* outiline tira a bordinha do input */
     outline: none;
     /* border bottom serve pra por borda só em baixo */
-    border-bottom:1px solid black;
+    border-bottom: 1px solid black;
     border-radius: 5px;
     width: 355px;
     margin-bottom: 10px;
 }
 
-main #formulario #formulario-form form button{
+main #formulario #formulario-form form button {
     padding: 8px;
     border: none;
     background-color: var(--cor-principal);
@@ -158,9 +164,9 @@ main #formulario #formulario-form form button{
 
 }
 
-main #formulario #formulario-form{
-    background-image: url(../Img/dog.png); 
-    background-repeat:no-repeat;
+main #formulario #formulario-form {
+    background-image: url(../Img/dog.png);
+    background-repeat: no-repeat;
     background-size: contain;
 }
 
@@ -170,43 +176,50 @@ main #formulario #formulario-form{
 
 /* ---------------------------------------------Aqui começa o Login-------------------------------------------------------------- */
 
-#logindog h3{
+#logindog h3 {
     text-align: center;
     padding: 60px;
     font-size: 2em;
 }
-#header nav a{
+
+#header nav a {
     padding-right: 10px;
 }
-main #logindog #logindog-divform form{
+
+main #logindog #logindog-divform form {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-main #logindog #logindog-divform form input, main #form #formulario-form1 input{
+
+main #logindog #logindog-divform form input,
+main #form #formulario-form1 input {
     display: block;
     padding: 8px;
     border: none;
     /* outiline tira a bordinha do input */
     outline: none;
     /* border bottom serve pra por borda só em baixo */
-    border-bottom:1px solid black;
+    border-bottom: 1px solid black;
     border-radius: 5px;
     width: 500px;
     margin-bottom: 10px;
 
 }
-main #logindog #logindog-divform form button:hover, #logindog a:hover{
+
+main #logindog #logindog-divform form button:hover,
+#logindog a:hover {
     font-size: large;
     padding: 10px;
     margin-bottom: 10px;
 }
-main #logindog #logindog-divform form button:hover{
+
+main #logindog #logindog-divform form button:hover {
     padding-left: 240px;
 }
 
-#formbuttonlogar{
+#formbuttonlogar {
     padding: 8px;
     border: none;
     background-color: var(--cor-principal);
@@ -223,7 +236,7 @@ main #logindog #logindog-divform form button:hover{
     padding-left: 20px;
 }
 
-#logindog a{
+#logindog a {
     padding: 8px;
     border: none;
     background-color: var(--cor-principal);
@@ -234,23 +247,24 @@ main #logindog #logindog-divform form button:hover{
     text-align: center;
 }
 
-main #form #form-formulario-login form{
+main #form #form-formulario-login form {
     padding: 15px;
 }
 
 
-main #form #form-formulario-login form{
+main #form #form-formulario-login form {
     padding: 15px;
 }
 
-main #form #form-formulario-login form{
+main #form #form-formulario-login form {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
+
 main #form #form-formulario-login form button,
-#form #teste{
+#form #teste {
     padding: 8px;
     border: none;
     background-color: var(--cor-principal);
@@ -262,8 +276,9 @@ main #form #form-formulario-login form button,
     text-decoration: none;
 
 }
+
 main #form #form-formulario-login form input,
-#form #teste{
+#form #teste {
     display: block;
     padding: 8px;
     border: none;
@@ -276,27 +291,27 @@ main #form #form-formulario-login form input,
     width: 400px;
     margin-bottom: 10px;
 }
-#inscrevase{
+
+#inscrevase {
     padding: 100px;
 }
 
 main #form #form-formulario-login form button:hover,
-#form #teste:hover{
+#form #teste:hover {
     font-size: large;
     padding: 10px;
     margin-bottom: 10px;
 }
-main #form{
-    
-    
-}
-#teste{
+
+main #form {}
+
+#teste {
     padding: 10px;
 }
 
 /* ------------------------------------------Aqui começa o Registro-------------------------------------------------------------- */
 
-main #form{
+main #form {
     display: flex;
     flex-direction: column;
     flex-direction: column;
@@ -304,7 +319,8 @@ main #form{
     align-items: center;
     padding-top: 30px;
 }
-main #form #textofoda h1{
+
+main #form #textofoda h1 {
     text-align: center;
     width: 168px;
     height: 35px;
@@ -312,13 +328,16 @@ main #form #textofoda h1{
     top: 77px;
     margin-bottom: 20px;
 }
-main #form #formulario-form1 input{
+
+main #form #formulario-form1 input {
     margin-bottom: 19px;
 }
-main #form form label{
+
+main #form form label {
     display: block;
 }
-#formbotao{
+
+#formbotao {
     padding: 8px;
     border: none;
     background-color: var(--cor-principal);
@@ -333,8 +352,9 @@ main #form form label{
     justify-content: center;
     padding-left: 215px;
 }
- main #form form a{
-    text-decoration:none;
+
+main #form form a {
+    text-decoration: none;
     color: black;
     text-align: center;
     display: flex;
@@ -344,46 +364,53 @@ main #form form label{
     align-items: center;
     padding-top: 10px;
 }
+
 /* -------------------------------dashboard-------------------------------------------------------------------------------- */
 
-#dashboard{
+#dashboard {
 
     background-color: var(--cor-topo);
-    height: 100vh;  
+    height: 100vh;
 }
-#maind{
+
+#maind {
     display: grid;
-    grid-template-columns:1fr 3fr;
+    grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 3fr;
     height: 100vh;
 
 }
-#dashboard #dashboarddiv div{
+
+#dashboard #dashboarddiv div {
     margin: 30px;
     background-color: var(--cor-principal);
     text-align: center;
-    padding:10px;
+    padding: 10px;
     border-radius: 100px;
 }
-#dashboard #dashboarddiv a{
+
+#dashboard #dashboarddiv a {
     text-decoration: none;
     color: black;
 }
-#dashboard #dashboarddiv div:hover{
+
+#dashboard #dashboarddiv div:hover {
     font-size: large;
     padding: 20px;
 }
-#maind{
+
+#maind {
     display: grid;
-    grid-template-columns:1fr 3fr;
+    grid-template-columns: 1fr 3fr;
     height: 100vh;
 }
 
-main #dash div{
+main #dash div {
     background-color: white;
     border: 5px solid black;
 }
-main #dash div{
+
+main #dash div {
     border-radius: 30px;
     width: 350px;
     display: inline-block;
@@ -391,22 +418,25 @@ main #dash div{
     padding: 60px;
 }
 
-main #dash #azul{
+main #dash #azul {
     border-color: rgb(63, 149, 220);
     text-align: center;
     font-size: 1.5em;
 }
-main #dash #verde{
+
+main #dash #verde {
     border-color: rgb(72, 211, 86);
     text-align: center;
     font-size: 1.5em;
 }
-main #dash #amarelo{
+
+main #dash #amarelo {
     border-color: #dfe750;
     text-align: center;
     font-size: 1.5em;
 }
-main #dash #vermelho{
+
+main #dash #vermelho {
     text-align: center;
     border-color: rgb(222, 59, 59);
     font-size: 1.5em;
@@ -414,18 +444,19 @@ main #dash #vermelho{
 
 /* --------------------------------Aqui começa as consultas --------------------------------------  */
 
-main .confirma button{
+main .confirma button {
     color: white;
-    background-color:var(--cor-verde);
+    background-color: var(--cor-verde);
     border: none;
     border-radius: 30px;
     cursor: pointer;
     font-size: larger;
     width: 200px;
 }
-main .cancela button{
+
+main .cancela button {
     color: white;
-    background-color:var(--cor-vermelho);
+    background-color: var(--cor-vermelho);
     border: none;
     border-radius: 30px;
     cursor: pointer;
@@ -434,8 +465,9 @@ main .cancela button{
     margin-left: 12px;
 }
 
-main .butoes{
-    display:flex;
+main .butoes {
+    display: flex;
     flex-direction: row;
 }
+
 /* daqui pra cima é os botão */
