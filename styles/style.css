@@ -442,6 +442,8 @@ main #dash #vermelho {
     font-size: 1.5em;
 }
 
+
+
 /* --------------------------------Aqui começa as consultas --------------------------------------  */
 
 main .confirma button {
@@ -469,6 +471,50 @@ main .butoes {
     display: flex;
     flex-direction: row;
 }
+
+#mainc .nome-consulta,
+#mainc .data-consulta,
+#mainc .hora-consulta,
+#mainc .mais-info {
+
+    display: grid;
+    grid-template-columns: auto;
+
+}
+
+#mainc .pergunta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#mainc .nome-consulta input {
+    width: 125vh;
+}
+
+#mainc .data-consulta input,
+#mainc .hora-consulta input {
+    width: 20vh;
+}
+
+#mainc .mais-info,
+#mainc .pergunta,
+#mainc .butoes {
+    padding-top: 15px;
+}
+
+#mainc .pergunta input{
+    padding: 8px;
+    border: none;
+    outline: none;
+    /* tira a borda mais forte /
+    border-bottom: 1px solid black;
+    / seleciona 1px em linha reta */
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
 
 /* daqui pra cima é os botão */
 /* ------------------------------CLIENTES--------------------------------------------- */
