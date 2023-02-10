@@ -222,7 +222,7 @@ main #logindog #logindog-divform form button:hover{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding-left: 240px;
+    padding-left: 20px;
 }
 
 #logindog a{
