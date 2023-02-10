@@ -30,4 +30,13 @@
         width: 200px !important;
     }
 }
+/* --------------------------------------------register-------------------------------------------------------------------
+ */
 
+@media(max-width: 600px){
+    #mainr #form #formulario-form1 form input,
+    #mainr #form #formulario-form1 form button{
+        width: 200px;
+        text-align: left;
+    }
+}

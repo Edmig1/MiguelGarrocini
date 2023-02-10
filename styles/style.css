@@ -287,7 +287,11 @@ main #form #form-formulario-login form button:hover,
     margin-bottom: 10px;
 }
 main #form{
-    padding-left: 415px;
+    
+    
+}
+#teste{
+    padding: 10px;
 }
 
 /* ------------------------------------------Aqui começa o Registro-------------------------------------------------------------- */
@@ -340,7 +344,6 @@ main #form form label{
     align-items: center;
     padding-top: 10px;
 }
-<<<<<<< HEAD
 /* -------------------------------dashboard-------------------------------------------------------------------------------- */
 
 #dashboard{
@@ -370,7 +373,7 @@ main #form form label{
     font-size: large;
     padding: 20px;
 }
-main{
+#maind{
     display: grid;
     grid-template-columns:1fr 3fr;
     height: 100vh;
@@ -408,7 +411,6 @@ main #dash #vermelho{
     border-color: rgb(222, 59, 59);
     font-size: 1.5em;
 }
-=======
 
 /* --------------------------------Aqui começa as consultas --------------------------------------  */
 
@@ -437,5 +439,3 @@ main .butoes{
     flex-direction: row;
 }
 /* daqui pra cima é os botão */
-
->>>>>>> 4da3d41af61d15c7565facc8391ba1ea638312c9
