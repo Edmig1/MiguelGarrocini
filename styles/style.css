@@ -471,3 +471,79 @@ main .butoes {
 }
 
 /* daqui pra cima é os botão */
+/* ------------------------------CLIENTES--------------------------------------------- */
+main h1{
+    padding-left: 15px;
+}
+
+#formclientes .grid-2{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+
+}
+
+#formclientes .grid-4{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 1fr;
+
+}
+
+#formclientes .grid-3{
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+
+}
+
+#formclientes label {
+    display: block;
+}
+
+#formclientes .grid-2 input,
+.grid-4 input,
+.grid-3 input{
+    display: block;
+    padding: 8px;
+    border: none;
+    /* outiline tira a bordinha do input /
+    outline: none;
+    / border bottom serve pra por borda só em baixo */
+    border-bottom:1px solid black;
+    border-radius: 5px;
+    width: 95%;
+
+
+}
+
+.form-nome input{
+
+}
+
+#fomulario-clientes form{
+    padding-left: 20px;
+}
+
+#fomulario-clientes .verdin button{
+    color: white;
+    background-color:var(--cor-verde);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: larger;
+    width: 200px;
+}
+#fomulario-clientes .botan-vermelho{
+    color: white;
+    background-color:var(--cor-vermelho);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: larger;
+    width: 200px;
+    margin-left: 12px;
+}
+
+#fomulario-clientes .botoes{
+    display:flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
