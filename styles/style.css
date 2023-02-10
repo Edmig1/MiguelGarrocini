@@ -93,7 +93,7 @@ main #beneficios #beneficios-nossos-beneficios,
 main #Banner .Banner-button,
 #Bem-vindo div,
 #header nav a:hover,
-main #beneficios #beneficios-servicos, main #formulario #formulario-form form {
+main #beneficios #beneficios-servicos, main #formulario #formulario-form form, main #form #form-formulario-login form {
     padding: 15px;
 }
 
@@ -235,7 +235,6 @@ main #logindog #logindog-divform form button:hover{
     cursor: pointer;
     text-align: center;
 }
-
 
 
 
