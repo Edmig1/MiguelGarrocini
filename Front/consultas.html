@@ -23,7 +23,7 @@
         </nav>
     </header>
 
-    <main>
+    <main id=mainc>
         <section id="consulta">
             <div class="texto-consulta">
                 <h1>Registrar uma consulta</h1>
@@ -33,8 +33,8 @@
                     <div class="pergunta">
                         <div class="nome-consulta">
                             <label for="nome-con">Nome completo do cliente</label>
-                            <input type="text" name="nome-con" id="nome-con" required placeholder="Nome completo do cliente"
-                                minlength="4">
+                            <input type="text" name="nome-con" id="nome-con" required
+                                placeholder="Nome completo do cliente" minlength="4">
                         </div>
                         <div class="data-consulta">
                             <label for="data-con">Data da consulta</label>
@@ -46,18 +46,18 @@
                         </div>
                     </div>
                     <div class="mais-info">
-                        <label for="info">Observações adicionais</label>
+                        <label for="info" id="labinfo">Observações adicionais</label>
                         <textarea name="info" id="info" cols="200" rows="10"></textarea>
                     </div>
                     <div class="butoes">
                         <div class="confirma">
-                             <button type="subbit" id="botao-confirma">Salvar</button>
+                            <button type="subbit" id="botao-confirma">Salvar</button>
                         </div>
                         <div class="cancela">
                             <button type="reset" id="botao-cancela">Cancelar</button>
                         </div>
                     </div>
-                    
+
                 </form>
             </div>
 
