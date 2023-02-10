@@ -287,6 +287,9 @@ main #form #form-formulario-login form button:hover,
     padding: 10px;
     margin-bottom: 10px;
 }
+main #form{
+    padding-left: 415px;
+}
 
 /* ------------------------------------------Aqui começa o Registro-------------------------------------------------------------- */
 
