@@ -5,9 +5,8 @@
     --cor-preta: black;
     --cor-branca: white;
     --cor-fundo: #FAFBFF;
-
-
-
+    --cor-verde: #1CF365;
+    --cor-vermelho: #DF2F2F;
 
 
 }
@@ -93,7 +92,7 @@ main #beneficios #beneficios-nossos-beneficios,
 main #Banner .Banner-button,
 #Bem-vindo div,
 #header nav a:hover,
-main #beneficios #beneficios-servicos, main #formulario #formulario-form form, main #form #form-formulario-login form {
+main #beneficios #beneficios-servicos, main #formulario #formulario-form form, main #form #form-formulario-login form, main #consulta {
     padding: 15px;
 }
 
@@ -341,6 +340,7 @@ main #form form label{
     align-items: center;
     padding-top: 10px;
 }
+<<<<<<< HEAD
 /* -------------------------------dashboard-------------------------------------------------------------------------------- */
 
 #dashboard{
@@ -408,3 +408,34 @@ main #dash #vermelho{
     border-color: rgb(222, 59, 59);
     font-size: 1.5em;
 }
+=======
+
+/* --------------------------------Aqui começa as consultas --------------------------------------  */
+
+main .confirma button{
+    color: white;
+    background-color:var(--cor-verde);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: larger;
+    width: 200px;
+}
+main .cancela button{
+    color: white;
+    background-color:var(--cor-vermelho);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: larger;
+    width: 200px;
+    margin-left: 12px;
+}
+
+main .butoes{
+    display:flex;
+    flex-direction: row;
+}
+/* daqui pra cima é os botão */
+
+>>>>>>> 4da3d41af61d15c7565facc8391ba1ea638312c9
