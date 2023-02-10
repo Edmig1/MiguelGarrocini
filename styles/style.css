@@ -198,7 +198,6 @@ main #logindog #logindog-divform form input, main #form #formulario-form1 input{
     margin-bottom: 10px;
 
 }
-
 main #logindog #logindog-divform form button:hover, #logindog a:hover{
     font-size: large;
     padding: 10px;
@@ -236,7 +235,58 @@ main #logindog #logindog-divform form button:hover{
     text-align: center;
 }
 
+main #form #form-formulario-login form{
+    padding: 15px;
+}
 
+
+main #form #form-formulario-login form{
+    padding: 15px;
+}
+
+main #form #form-formulario-login form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+main #form #form-formulario-login form button,
+#form #teste{
+    padding: 8px;
+    border: none;
+    background-color: var(--cor-principal);
+    color: var(--cor-branca);
+    border-radius: 10px;
+    width: 380px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-decoration: none;
+
+}
+main #form #form-formulario-login form input,
+#form #teste{
+    display: block;
+    padding: 8px;
+    border: none;
+    outline: none;
+    /* tira a borda mais forte /
+    border-bottom: 1px solid black;
+    / seleciona 1px em linha reta */
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    width: 400px;
+    margin-bottom: 10px;
+}
+#inscrevase{
+    padding: 100px;
+}
+
+main #form #form-formulario-login form button:hover,
+#form #teste:hover{
+    font-size: large;
+    padding: 10px;
+    margin-bottom: 10px;
+}
 
 /* ------------------------------------------Aqui começa o Registro-------------------------------------------------------------- */
 

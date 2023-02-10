@@ -16,6 +16,13 @@
     }
 }
 /* ------------------------------------Login---------------------------------------------------------------------- */
+@media(max-width: 415px){
+    #form-formulario-login form div,
+    main #form #form-formulario form input, main #form #form-formulario-login form input,
+    main #form #form-formulario form button, main #form #form-formulario-login form button, #form #teste{
+        width: 100%;
+    }
 
+}
     
 
