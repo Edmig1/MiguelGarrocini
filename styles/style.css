@@ -93,7 +93,7 @@ main #beneficios #beneficios-nossos-beneficios,
 main #Banner .Banner-button,
 #Bem-vindo div,
 #header nav a:hover,
-main #beneficios #beneficios-servicos, main #formulario #formulario-form form {
+main #beneficios #beneficios-servicos, main #formulario #formulario-form form, main #form #form-formulario-login form {
     padding: 15px;
 }
 
@@ -171,61 +171,7 @@ main #formulario #formulario-form{
 
 /* ---------------------------------------------Aqui começa o Login-------------------------------------------------------------- */
 
-#logindog h3{
-    text-align: center;
-    padding: 60px;
-    font-size: 2em;
-}
-#header nav a{
-    padding-right: 10px;
-}
-main #logindog #logindog-divform form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-main #logindog #logindog-divform form input{
-    display: block;
-    padding: 8px;
-    border: none;
-    /* outiline tira a bordinha do input */
-    outline: none;
-    /* border bottom serve pra por borda só em baixo */
-    border-bottom:1px solid black;
-    border-radius: 5px;
-    width: 500px;
-    margin-bottom: 10px;
 
-}
-
-main #logindog #logindog-divform form button:hover, #logindog a:hover{
-    font-size: large;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-#formbuttonlogar{
-    padding: 8px;
-    border: none;
-    background-color: var(--cor-principal);
-    color: white;
-    border-radius: 10px;
-    width: 500px;
-    cursor: pointer;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-#logindog a{
-    padding: 8px;
-    border: none;
-    background-color: var(--cor-principal);
-    color: white;
-    border-radius: 10px;
-    width: 500px;
-    cursor: pointer;
-    text-align: center;
-}
 
 
 /* ------------------------------------------Aqui começa o Registro-------------------------------------------------------------- */
